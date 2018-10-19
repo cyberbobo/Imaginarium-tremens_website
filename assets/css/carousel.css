@@ -88,20 +88,6 @@ body {
   height: 100%;
   margin-left: -50vw;
 }
-/*.carousel-inner > .item > picture > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
-}*/
-/*.carousel-inner > .item > picture > img {
-  display: block;
-  top: center;
-  left: center;
-  background-position: center center;
-  text-align: center;
-  height: 100%;
-}*/
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
