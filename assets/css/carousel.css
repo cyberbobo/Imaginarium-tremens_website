@@ -48,6 +48,10 @@ body {
   .carousel .item {
     height: 300px;
   }
+
+  .carousel-inner > .item > picture > img {
+    margin-top: -150px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -58,6 +62,10 @@ body {
   /* Declare heights because of positioning of img element */
   .carousel .item {
     height: 500px;
+  }
+
+  .carousel-inner > .item > picture > img {
+    margin-top: -250px;
   }
 }
 
@@ -70,19 +78,30 @@ body {
 }
 
 .carousel-inner > .item > picture {
-  position: absolute;
-  top: 0;
-  left: 0;
   height: 100%;
   width: auto;
 }
 .carousel-inner > .item > picture > img {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   height: 100%;
-  width: auto;
+  margin-left: -50vw;
 }
+/*.carousel-inner > .item > picture > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}*/
+/*.carousel-inner > .item > picture > img {
+  display: block;
+  top: center;
+  left: center;
+  background-position: center center;
+  text-align: center;
+  height: 100%;
+}*/
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
